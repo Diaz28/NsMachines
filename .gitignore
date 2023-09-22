@@ -1,19 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-nsmachines/node_modules
-nsmachines/.pnp
+ns_machines/node_modules
+ns_machines/.pnp
 .pnp.js
 
 # testing
-nsmachines//coverage
+ns_achines/coverage
 
 # next.js
-nsmachines/.next/
-nsmachines/out/
+ns_machines/.next/
+ns_machines/out/
 
 # production
-nsmachines/build
+ns_machines/build
 
 # misc
 .DS_Store
