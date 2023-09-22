@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default function Root() {
     return (
         <div>
+
             <Carousel>
                 <Carousel.Item interval={5000}>
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
@@ -75,25 +76,11 @@ export default function Root() {
 
             </div>
 
-            <div class="container">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                    <div class="col-md-4 d-flex align-items-center">
-                        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                            <svg class="bi" width="30" height="24"><use xlinkhref="#bootstrap" /></svg>
-                        </a>
-                        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company, Inc</span>
-                    </div>
-
-                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlinkhref="#twitter" /></svg></a></li>
-                        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlinkhref="#instagram" /></svg></a></li>
-                        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlinkshref="#facebook" /></svg></a></li>
-                    </ul>
-                </footer>
-            </div>
 
         </div>
 
 
     );
 }
+
+
