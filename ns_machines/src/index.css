@@ -227,3 +227,12 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
+
+
+
+/* Meus css */
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
