@@ -1,23 +1,7 @@
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
+body {
+  background-color: #c9c9c9;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
-}
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -104,6 +88,10 @@
 .bi {
   vertical-align: -.125em;
   fill: currentColor;
+}
+
+.navbar {
+  background-color: #b0aeae!important;
 }
 
 .nav-scroller {

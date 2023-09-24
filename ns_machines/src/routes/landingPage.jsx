@@ -1,34 +1,33 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.css';
+
+// CSS
+import '../css/carousel.css';
 
 export default function Root() {
     return (
         <div>
 
-            <Carousel>
+            <Carousel >
                 <Carousel.Item interval={5000}>
-                    {/* <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="/carousel1.svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> */}
-                    <img className="bd-placeholder-img" width="100%" src="/carousel1.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
+                    <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel1.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
                         <h3>Serviços disponíveis</h3>
-                        <p>Sonorização e iluminação</p>
+                        <p>Sonorização, iluminação e Transporte</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+                <Carousel.Item interval={5000}>
+                <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel2.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Animadores</h3>
+                        <p>Dj's animadores e coreografias</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+                <Carousel.Item interval={5000}>
+                <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel3.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <h3>Diversão</h3>
+                        <p>Insufláveis e Grupos de música</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import Button from 'react-bootstrap/Button';
@@ -10,7 +8,11 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
+// CSS
 import 'bootstrap/dist/css/bootstrap.css';
+import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import './css/index.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,6 +21,8 @@ import {
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
+
+// Pages
 import ErrorPage from "./error-page";
 import LandingPage from "./routes/landingPage";
 
@@ -31,7 +35,7 @@ root.render(
 
       <Navbar expand="lg" className="bg-body-tertiary sticky-top">
         <Container fluid>
-          <Navbar.Brand ><Link to="/">Ns Casamentos</Link></Navbar.Brand>
+          <Navbar.Brand ><Link to="/">Ns Produções</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -40,7 +44,7 @@ root.render(
               navbarScroll
             >
               <Nav.Link ><Link to="/Contactos">Contactos</Link></Nav.Link>
-              <Nav.Link ><Link to="Produtos">Produtos</Link></Nav.Link>
+              <Nav.Link ><Link to="Produtos">Serviços</Link></Nav.Link>
               {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
