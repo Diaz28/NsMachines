@@ -8,10 +8,11 @@ export default function Root() {
 
             <Carousel>
                 <Carousel.Item interval={5000}>
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+                    {/* <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="/carousel1.svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> */}
+                    <img className="bd-placeholder-img" width="100%" src="/carousel1.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Serviços disponíveis</h3>
+                        <p>Sonorização e iluminação</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
