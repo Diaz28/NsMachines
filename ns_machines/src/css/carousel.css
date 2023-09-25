@@ -20,4 +20,8 @@
   .carousel-item {
     height: 32rem;
   }
+
+.carousel-caption {
+  color: #742ff3;
+}
   

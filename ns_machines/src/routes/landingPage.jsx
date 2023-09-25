@@ -10,21 +10,21 @@ export default function Root() {
 
             <Carousel >
                 <Carousel.Item interval={5000}>
-                    <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel1.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
+                    <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel1.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
                         <h3>Serviços disponíveis</h3>
                         <p>Sonorização, iluminação e Transporte</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={5000}>
-                <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel2.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
+                <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel2.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
                         <h3>Animadores</h3>
                         <p>Dj's animadores e coreografias</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={5000}>
-                <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel3.webp" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
+                <img className="bd-placeholder-img carousel-img" width="100%" height="100%" src="/carousel3.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     <Carousel.Caption>
                         <h3>Diversão</h3>
                         <p>Insufláveis e Grupos de música</p>
@@ -42,11 +42,12 @@ export default function Root() {
 
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-                        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                        <h2 class="featurette-heading fw-normal lh-1"> NS Casamentos <span class="text-body-secondary">direcionada à produção de eventos.</span></h2>
+                        <p class="lead">A nossa empresa é uma entidade jovem e enérgica, dedicada à realização de eventos, com especialização notória na área de casamentos, bem como na gestão de uma variada gama de eventos privados e corporativos.</p>
+    
                     </div>
-                    <div class="col-md-5">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+                    <div class="col-md-5 align-self-center">
+                    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="/landing_1.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     </div>
                 </div>
 
