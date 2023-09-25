@@ -42,12 +42,12 @@ export default function Root() {
 
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1"> NS Casamentos <span class="text-body-secondary">direcionada à produção de eventos.</span></h2>
+                        <h2 class="featurette-heading fw-normal lh-1"> NS Casamentos: <span class="text-body-secondary">direcionada à produção de eventos</span></h2>
                         <p class="lead">A nossa empresa é uma entidade jovem e enérgica, dedicada à realização de eventos, com especialização notória na área de casamentos, bem como na gestão de uma variada gama de eventos privados e corporativos.</p>
     
                     </div>
                     <div class="col-md-5 align-self-center">
-                    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="/landing_1.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
+                    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-xl" width="500" height="500" src="/landing_1.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     </div>
                 </div>
 
@@ -55,11 +55,11 @@ export default function Root() {
 
                 <div class="row featurette">
                     <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-                        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+                        <h2 class="featurette-heading fw-normal lh-1">Excelência e Variedade: <span class="text-body-secondary">A Nossa Abordagem Inigualável em Serviços de Eventos</span></h2>
+                        <p class="lead">Destacamo-nos pela excelência dos nossos serviços e pela qualidade superior dos nossos equipamentos. Além disso, dispomos de uma vasta gama de serviços diversificados, projetados para atender integralmente às necessidades de nossa distinta clientela.</p>
                     </div>
                     <div class="col-md-5 order-md-1">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+                    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-xl" width="500" height="500" src="/landing_2.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     </div>
                 </div>
 
@@ -67,11 +67,11 @@ export default function Root() {
 
                 <div class="row featurette">
                     <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-                        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+                        <h2 class="featurette-heading fw-normal lh-1">Adaptação Excepcional:  <span class="text-body-secondary">Transformando Cada Evento em Uma Experiência Única</span></h2>
+                        <p class="lead">Indiscutivelmente, o que nos distingue é a nossa notável capacidade de adaptação a uma ampla variedade de eventos, mantendo sempre nossa dedicação e foco inabaláveis na criação de experiências únicas em cada ocasião.</p>
                     </div>
                     <div class="col-md-5">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+                    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-xl" width="500" height="500" src="/landing_3.jpg" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"/>
                     </div>
                 </div>
 
