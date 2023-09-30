@@ -12,20 +12,20 @@ const db = mongoose.connection;
 const port = process.env.PORT || 5000;
 
 
-// Establishes the connection with the Mongodb database
-mongoose.connect(
-    process.env.BARCELPARTS_URI,
-    {
-        maxPoolSize: 50,
-        wtimeoutMS: 2500,
-        useNewUrlParser: true
-    }
-)
+// // Establishes the connection with the Mongodb database
+// mongoose.connect(
+//     process.env.BARCELPARTS_URI,
+//     {
+//         maxPoolSize: 50,
+//         wtimeoutMS: 2500,
+//         useNewUrlParser: true
+//     }
+// )
 
-db.on("error", console.error.bind(console, "connection error: "));
-db.once("open", function () {
-    console.log("Connected successfully");
-});
+// db.on("error", console.error.bind(console, "connection error: "));
+// db.once("open", function () {
+//     console.log("Connected successfully");
+// });
 
 //Creates the express
 const app = express();
