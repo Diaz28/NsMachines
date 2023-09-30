@@ -2,12 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 // CSS
 import 'bootstrap/dist/css/bootstrap.css';
@@ -25,6 +22,7 @@ import {
 // Pages
 import ErrorPage from "./error-page";
 import LandingPage from "./routes/landingPage";
+import LoginPage from "./routes/loginPage";
 
 
 
@@ -43,10 +41,14 @@ root.render(
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link ><Link to="/Contactos">Contactos</Link></Nav.Link>
-              <Nav.Link ><Link to="Produtos">Serviços</Link></Nav.Link>
+              <Nav.Link ><Link to="/contactos">Contactos</Link></Nav.Link>
+              <Nav.Link ><Link to="/produtos">Serviços</Link></Nav.Link>
+              
             </Nav>
           </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-end">
+          <Nav.Link ><Link to="/login">Login</Link></Nav.Link>
+        </Navbar.Collapse>
         </Container>
       </Navbar>
 
@@ -54,6 +56,7 @@ root.render(
 
       <Routes>
         <Route index element={<LandingPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
 

@@ -7,7 +7,7 @@ const routes = require("./api/routes.js");
 
 dotenv.config();
 
-const db = mongoose.connection;
+// const db = mongoose.connection;
 
 const port = process.env.PORT || 5000;
 
@@ -34,8 +34,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/routes" , routes);
-app.use("*", (req,res)=> res.status(404).json({error:"not found"}));
+// app.use("/api/routes" , routes);
+// app.use("*", (req,res)=> res.status(404).json({error:"not found"}));
 
 //Listens on the port to retrieve information from frontend 
 app.listen(port,() => {

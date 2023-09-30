@@ -15,6 +15,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "install": "^0.13.0",
+    "mdb-react-ui-kit": "^6.3.0",
     "mongoose": "^7.5.3",
     "nodemon": "^3.0.1",
     "npm": "^10.1.0",
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "start_backend": "node backend_server/app.js",
-    "start_frontend": "react-scripts start",
+    "start_frontend": "PORT=3000 react-scripts start",
     "start": "concurrently \"npm-run-all -p start_backend start_frontend\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
